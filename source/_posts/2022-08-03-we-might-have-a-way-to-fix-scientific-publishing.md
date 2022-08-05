@@ -24,9 +24,9 @@ for publish.  This has created a whole host of new problems, including the rise
 of predatory journals that are willing to publish almost anything by anyone who
 can pay.
 
-The ultimate effect of pay to play is that the traditional peer review and
+The ultimate effect of pay-to-play is that the traditional peer review and
 refereeing process has broken down.  If a dishonest researcher gets rejected
-from a reputable journal, they can take their paper to a pay to play journal
+from a reputable journal, they can take their paper to a pay-to-play journal
 and have it published there. With over 10,000 academic journals, it's
 impossible for the lay public to track which journals are reputable and which
 are not.  As far as the public is concerned, a published paper is a valid
@@ -42,32 +42,32 @@ publishing platform with the potential to replace the entire journal system.
 
 ![A screenshot of a scientific publishing platform.](/assets/images/2022-08-03/overview.png)
 
-It allows scholars, scientists, academics, and researchers to self organize
-their own peer review and refereeing, without needing journal editors to
-manually mediate it.  It allows it to be crowdsourced, using a reputation
-system tied to academic fields to determine who should be able to offer review
-and to referee.
+Peer Review allows scholars, scientists, academics, and researchers to self
+organize their own peer review and refereeing, without needing journal editors
+to manually mediate it.  The platform allows review and refereeing to be
+crowdsourced, using a reputation system tied to academic fields to determine
+who should be able to offer review and to referee.
 
-It splits pre-publish peer review from post-publish refereeing.  Pre-publish
-review then becomes completely about helping authors polish their work and
-decide if it is ready to publish.  Refereeing happens post-publish, and in a
-way which is easily understandable to the lay reader, helping the general
-public sort solid studies from shakey ones.
+The platform splits pre-publish peer review from post-publish refereeing.
+Pre-publish review then becomes completely about helping authors polish their
+work and decide if their articles are ready to publish.  Refereeing happens
+post-publish, and in a way which is easily understandable to the lay reader,
+helping the general public sort solid studies from shakey ones.
 
-It is being developed open source.  The hope is to form a non-profit to develop
-it which would be governed by the community of academics who use the platform
-in collaboration with the team of software professionals who build it (a
-multi-stakeholder cooperative).
+Peer Review is being developed open source.  The hope is to form a non-profit
+to develop it which would be governed by the community of academics who use the
+platform in collaboration with the team of software professionals who build it
+(a multi-stakeholder cooperative).
 
 Since the platform crowdsources the work of review and refereeing, and because
 it can potentially handle all academic and scientific fields on a single
-platform, it could eliminate most of the overhead of academic publishing.
-Meaning it could be initially funded with small donations from the scholars
-using it. If it were to eventually replace the entire journal system, it could
-be funded by the universities for a tiny fraction (1% or less) of what they are
-paying for publishing now.
+platform, we could eliminate most of the overhead of academic publishing.
+Meaning Peer Review could be initially funded with small donations from the
+scholars using it. If the platform were to eventually replace the entire
+journal system, it could be funded by the universities for a tiny fraction (1%
+or less) of what they are paying for publishing now.
 
-It is currently at the alpha stage of development, most of the core features
+Peer Review is currently at the alpha stage of development, most of the core features
 are functional in a proof of concept. They need testing and hardening, and a
 number of functionality gaps need to be filled in. I hope to reach a closed
 beta in the next few months. And an open beta several months after that. I'm
@@ -257,7 +257,7 @@ well. I hope to reach a closed beta in the next couple months. I'm also
 ups](https://docs.google.com/forms/d/e/1FAIpQLSeMZ69DD2UiEiZjIiJQpaqU_UiYG-YXVhsGOiWbHNofIRDMQw/viewform?usp=sf_link)
 for the closed beta.  Peer Review will only be as good as the community that
 forms around it, so - if the direction I'm exploring does indeed hold promise -
-I'm hoping to start building that community now.
+I'm hoping we can start building that community now.
 
 After the closed beta period I intend to do an open beta, where the platform is
 opened to any who would like to use it (while still understanding that it is
@@ -292,7 +292,7 @@ You can support me on [GitHub
 Sponsors](https://github.com/sponsors/danielBingham).  You'll need to make a
 GitHub Account, but it's free.
 
-If I successfully raise that much, I will form the non-profit. If I raise
+If we successfully raise that much, I will form the non-profit. If we raise
 substantially more than that I will hire additional engineers, designers,
 product managers, devops, and QE to help with development.  I will also be
 pursuing grant funding once we reach the closed beta period. Any leads in that
