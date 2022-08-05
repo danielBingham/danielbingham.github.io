@@ -1,6 +1,6 @@
 ---
 title: A Possible Fix For Scientific (and Academic) Publishing
-image:
+image: /assets/images/2022-08-03/overview.png
 ---
 
 Scientific and academic publishing is broken.  The vast majority of the
