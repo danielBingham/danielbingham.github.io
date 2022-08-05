@@ -59,20 +59,21 @@ it which would be governed by the community of academics who use the platform
 in collaboration with the team of software professionals who build it (a
 multi-stakeholder cooperative).
 
-Since the platform crowd sources the work of review and refereeing, and because
-it can handle all academic and scientific fields on a single platform, it
-effectively eliminates most of the overhead of academic publishing.  Meaning it
-could be initially funded with small donations from the scholars using it. If
-it were to eventually replace the entire journal system, it could be funded by
-the universities for a tiny fraction (1% or less) of what they are paying for
-publishing now.
+Since the platform crowdsources the work of review and refereeing, and because
+it can potentially handle all academic and scientific fields on a single
+platform, it could eliminate most of the overhead of academic publishing.
+Meaning it could be initially funded with small donations from the scholars
+using it. If it were to eventually replace the entire journal system, it could
+be funded by the universities for a tiny fraction (1% or less) of what they are
+paying for publishing now.
 
 It is currently at the alpha stage of development, most of the core features
 are functional in a proof of concept. They need testing and hardening, and a
 number of functionality gaps need to be filled in. I hope to reach a closed
 beta in the next few months. And an open beta several months after that. I'm
 seeking academics to [give feedback on the concept, help test the alpha, and
-help us prioritize the roadmap for the closed and open betas.](https://docs.google.com/forms/d/e/1FAIpQLSeMZ69DD2UiEiZjIiJQpaqU_UiYG-YXVhsGOiWbHNofIRDMQw/viewform?usp=sf_link)
+help us prioritize the roadmap for the closed and open
+betas.](https://docs.google.com/forms/d/e/1FAIpQLSeMZ69DD2UiEiZjIiJQpaqU_UiYG-YXVhsGOiWbHNofIRDMQw/viewform?usp=sf_link)
 
 If Peer Review succeeds, there are any number of ways we could take it. It
 could potentially solve the file drawer problem from the beginning, by simply
@@ -116,14 +117,19 @@ When you hit submit, the draft goes into the review queue.  Here other scholars 
 have enough reputation in any of the fields you tagged the paper with can see
 the draft and offer feedback on it.
 
+![A screenshot showing the review queue.](/assets/images/2022-08-03/review-queue.png)
+
 This system gives scholars an enormous amount of control over who they solicit
 feedback from. By choosing how high up the field tree they go, they choose how
 wide to cast their net. Because they can add up to five fields (which don't
 have to be related) they can easily request interdisciplinary feedback.
 
-Reviewers can click anywhere on the document to leave comments and when they
-are ready, submit their review with a summary and a recommendation. The
-possible recommendations are:
+Reviewers can click anywhere on the document to leave comments.
+
+![A screenshot of review comments.](/assets/images/2022-08-03/review-comment.png)
+
+When they are ready, submit their review with a summary and a recommendation.
+The possible recommendations are:
 
 - "Recommend Approval" meaning that this draft is ready to publish.
 - "Recommend Changes" meaning that they think it'll be ready to publish after
@@ -132,6 +138,9 @@ the recommended changes are made.
 publishing, or could be made publishable.
 - "Commentary" which is just a way to offer feedback and commentary with out a
 specific recommendation.
+
+![A screenshot of the review screen.](/assets/images/2022-08-03/review-screen.png)
+
 
 Authors can then mark reviews as "accepted", indicating that they found them
 helpful, or "rejected" indicating that they were not helpful.  Reviews that are
@@ -163,6 +172,8 @@ tagged with can vote the paper up or down.  Up votes increase the paper's score
 and grant the authors reputation in the tagged fields.  Down votes decrease the
 paper's score and the author's reputation in the tagged fields.
 
+![A screenshot of a published paper.](/assets/images/2022-08-03/published.png)
+
 Up votes should be given based on an objective assessment of the paper's
 quality. Is this good science?  A well constructed argument?  Much of the same
 criteria used to determine whether a paper should be published in a well
@@ -176,6 +187,8 @@ Peers can also post a single response to each paper, outlining their feedback
 and reasons for voting how they did (or not voting at all) in public.  Down
 voters will be strongly encouraged to post a response explaining their
 downvote.
+
+![A screenshot of the responses section of the publish screen.](/assets/images/2022-08-03/responses.png)
 
 In this way, the refereeing process is made transparent and easy for the public
 to follow.  A down voted paper should be treated with skepticism. An up voted
