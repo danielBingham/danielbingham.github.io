@@ -102,33 +102,159 @@ body > header a:hover { color: #666; }
  *      Responsive Design -- Sizes and Dimensions
  ******************************************************************************/
 
-@media screen and  (max-width: 1024px)  {
+@media screen and (max-width: 399px)  {
+    body { min-width: 300px; }
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        width: 100%;  
+        margin: 0 auto;
+        min-width: 300px;
+        max-width: 400px;
+
+        min-height: 540px; 
+
+        font-size: 12px; 
+        line-height: 1.6em;
+    }
+
+    #get-involved { font-size: 12px; }
+    #get-involved .description { text-align: center; }
+    #get-involved .ways-to-get-involved {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #get-involved .ways-to-get-involved .involve-method { padding: 10px; }
+    #get-involved #github { grid-column: 1/2; }
+    #get-involved #github img { width: 32px; }
+    #get-involved #sponsor { grid-column: 2/3; }
+    #get-involved #sponsor .sponsors-badge { padding: 10px }
+    #get-involved #signup { grid-column: 3/4; }
+
+
+    article { width: 300px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 300px; }
+
+    article h1 { font-size: 2em; line-height: 1.46em; text-align: center; font-weight: bold; }
+    article h2 { font-size: 1.5em; line-height: 1.46em; font-weight: bold; }
+    article h3 { font-size: 1.2em;  line-height: 1.46em; font-weight: bold; text-align: center; }
+
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+}
+
+@media screen and  (min-width: 400px) and (max-width: 699px)  {
+    body { min-width: 400px; }
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        width: 100%;  
+        margin: 0 auto;
+        min-width: 400px;
+        max-width: 700px;
+
+        min-height: 540px; 
+
+        font-size: 16px; 
+        line-height: 1.6em;
+    }
+
+    #get-involved { font-size: 12px; }
+    #get-involved .description { text-align: center; }
+    #get-involved .ways-to-get-involved {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #get-involved .ways-to-get-involved .involve-method { padding: 10px; }
+    #get-involved #github { grid-column: 1/2; }
+    #get-involved #github img { width: 32px; }
+    #get-involved #sponsor { grid-column: 2/3; }
+    #get-involved #sponsor .sponsors-badge { padding: 10px }
+    #get-involved #signup { grid-column: 3/4; }
+
+
+    article { width: 400px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 400px; }
+
+    article h1 { font-size: 2em; line-height: 1.46em; text-align: center; font-weight: bold; }
+    article h2 { font-size: 1.5em; line-height: 1.46em; font-weight: bold; }
+    article h3 { font-size: 1.2em;  line-height: 1.46em; font-weight: bold; text-align: center; }
+
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+}
+
+@media screen and  (min-width: 700px) and (max-width: 1023px)  {
     body { min-width: 700px; }
 
 
     /* ---------------- Primary Content Container ----------------------- */
     body > main { 
-        clear: both;
         width: 100%;  
+        margin: 0 auto;
         min-width: 700px;
+        max-width: 1200px;
+
         min-height: 540px; 
 
         font-size: 18px; 
         line-height: 1.6em;
     }
 
-    article { width: 670px; margin: 20px auto; padding-bottom: 60px; }
-    article img { display: block; width: 670px;  margin: 10px auto; }
+    article { width: 700px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 700px; }
 
-    /* ------------------ CV --------------------- */
-    #cv article { margin: 0 auto; }
-    #cv img { float: left; width: 150px; margin-right: 20px; }
-    #cv section.contact { height: 125px; padding: 25px 0; }
-    #cv section.contact .icon { padding-right: 1em; }
-    #cv section.work-experience { clear: both; margin: 20px auto;}
-    #cv h2 .icon { padding-right: 1em; }
-    #cv .job { padding: 0.25em 0; }
-    #cv .volunteer { padding: 0.25em 0; }
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+}
+
+@media screen and  (min-width: 1024px)  {
+    body { min-width: 700px; }
+
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        width: 100%;  
+        margin: 0 auto;
+        min-width: 700px;
+        max-width: 1200px;
+
+        min-height: 540px; 
+
+        font-size: 18px; 
+        line-height: 1.6em;
+    }
+
+    article { width: 700px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 950px;  margin: 10px 0 10px -125px; }
 
     /* ---------------- Articles --------------- */
     .subtitle { text-align: center; }
@@ -145,159 +271,3 @@ body > header a:hover { color: #666; }
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px)  {
-    body { min-width: 1024px; }
-
-    /* ---------------- Primary Content Container ----------------------- */
-    body > main { 
-        margin-left: 224px; /* Keep it out from under the fixed position header. */
-
-        width: 800px;  
-        min-height: 540px; 
-
-        font-size: 18px; 
-        line-height: 1.6em;
-    }
-
-    body > footer { 
-        text-align: center; 
-        margin: 10px; 
-        padding-top: 100px; 
-        padding-bottom: 20px;
-
-        font-size; 12px;
-        line-height: 1.2em;
-    }
-
-    article { width: 670px; margin: 20px auto; padding-bottom: 60px; }
-    article img { display: block; width: 670px;  margin: 10px auto; }
-
-    /* ------------------ CV --------------------- */
-    #cv article { margin: 0 auto; }
-    #cv img { float: left; width: 150px; margin-right: 20px; }
-    #cv section.contact { height: 125px; padding: 25px 0; }
-    #cv section.contact .icon { padding-right: 1em; }
-    #cv section.work-experience { clear: both; margin: 20px auto;}
-    #cv h2 .icon { padding-right: 1em; }
-    #cv .job { padding: 0.25em 0; }
-    #cv .volunteer { padding: 0.25em 0; }
-
-    /* ---------------- Articles --------------- */
-    .subtitle { text-align: center; }
-    .when { text-align: center; font-size: 14px; margin-top: -10px; }
-    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
-    .footnote { font-size: 14px; line-height: 1.46em; }
-    code, pre { padding: 0.5em; font-size: 14px; }
-    .hljs { padding: 16px !important; }
-    figure { text-align: center; margin: 0; margin-left: -50px; width: 770px; }
-    figure img { width: 770px;  }
-
-    #page-links { text-align: center; }
-    .page-info { display: inline-block; margin: 0 2em; }
-
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1599px)  {
-    body { min-width: 1280px; } 
-
-    /* ---------------- Primary Content Container ----------------------- */
-    body > main { 
-        margin-left: 280px; /* Keep it out from under the fixed position header. */
-
-        width: 1000px;  
-        min-height: 540px; 
-
-        font-size: 18px; 
-        line-height: 1.6em;
-    }
-
-    body > footer { 
-        text-align: center; 
-        margin: 10px; 
-        padding-top: 100px; 
-        padding-bottom: 20px;
-
-        font-size: 12px;
-        line-height: 1.2em;
-    }
-
-    article { width: 770px; margin: 20px auto; padding-bottom: 60px; }
-    article img { display: block; width: 770px;  margin: 10px auto; }
-
-    /* ------------------ CV --------------------- */
-    #cv article { margin: 0 auto; }
-    #cv img { float: left; width: 150px; margin-right: 20px; }
-    #cv section.contact { height: 125px; padding: 25px 0; }
-    #cv section.contact .icon { padding-right: 1em; }
-    #cv section.work-experience { clear: both; margin: 20px auto;}
-    #cv h2 .icon { padding-right: 1em; }
-    #cv .job { padding: 0.25em 0; }
-    #cv .volunteer { padding: 0.25em 0; }
-
-    /* ---------------- Articles --------------- */
-    .subtitle { text-align: center; }
-    .when { text-align: center; font-size: 14px; margin-top: -10px; }
-    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
-    .footnote { font-size: 14px; line-height: 1.46em; }
-    code, pre { padding: 0.5em; font-size: 14px; }
-    .hljs { padding: 16px !important; }
-    figure { text-align: center; margin: 0; margin-left: -50px; width: 870px; }
-    figure img { width: 870px;  }
-
-    #page-links { text-align: center; }
-    .page-info { display: inline-block; margin: 0 2em; }
-
-}
-
-
-@media screen and (min-width: 1600px) {
-    body { min-width: 1600px; }
-
-    /* ---------------- Primary Content Container ----------------------- */
-    body > main { 
-        margin: 0 auto;
-
-        width: 1100px;  
-        min-height: 540px; 
-
-        font-size: 18px; 
-        line-height: 1.6em;
-    }
-
-    body > footer { 
-        text-align: center; 
-        margin: 10px; 
-        padding-top: 100px; 
-        padding-bottom: 20px;
-
-        font-size: 12px;
-        line-height: 1.2em;
-    }
-
-    article { width: 770px; margin: 20px auto; padding-bottom: 60px; }
-    article img { display: block; width: 770px; margin: 10px auto; }
-
-    /* ------------------ CV --------------------- */
-    #cv article { margin: 0 auto; }
-    #cv img { float: left; width: 150px; margin-right: 20px; }
-    #cv section.contact { height: 125px; padding: 25px 0; }
-    #cv section.contact .icon { padding-right: 1em; }
-    #cv section.work-experience { clear: both; margin: 20px auto;}
-    #cv h2 .icon { padding-right: 1em; }
-    #cv .job { padding: 0.25em 0; }
-    #cv .volunteer { padding: 0.25em 0; }
-
-    /* ---------------- Articles --------------- */
-    .subtitle { text-align: center; }
-    .when { text-align: center; font-size: 14px; margin-top: -10px; }
-    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
-    .footnote { font-size: 14px; line-height: 1.46em; }
-    code, pre { padding: 0.5em; font-size: 14px; }
-    .hljs { padding: 16px !important; }
-    figure { text-align: center; margin: 0; margin-left: -50px; width: 870px; }
-    figure img { width: 870px;  }
-
-    #page-links { text-align: center; }
-    .page-info { display: inline-block; margin: 0 2em; }
-
-}
