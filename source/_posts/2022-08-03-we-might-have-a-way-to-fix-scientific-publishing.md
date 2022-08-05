@@ -4,20 +4,17 @@ image:
 ---
 
 Scientific and academic publishing is broken.  The vast majority of the
-journals have been privatized by publishers which charge astronomical fees for
+journals have been privatized by publishers who charge astronomical fees for
 access to the literature.
 
-The fees to access it have gotten so high that even rich universities have
-started to walk away from negotiations. Poorer universities have long been
-unable to afford the publisher's fees.  The average citizen has no hope of
-affording them.
+The fees have gotten so high that even well funded universities have
+started to walk away from negotiations. Universities with less funding have long been
+unable to afford them.  The average citizen has no hope of affording them.
 
-Science, which is supposed to be an open and transparent process of inquiry,
-has become opaque. The results of scientific investigation are locked away.
-
-In a democracy, the ultimate decider of policy is the average citizen.  And the
-average citizen is currently being denied access to the primary source material
-necessary to make good policy decisions.
+With the results of the scientific process locked away behind paywalls, science
+is no longer an open and transparent process. Worse, the ultimate deciders of
+policy in a democracy, average citizens, are being denied access to the primary
+source materials necessary to make good policy decisions. 
 
 The Open Access movement has been trying to solve this problem, but it has
 mostly stuck to the existing model of hiring editors to manually match
@@ -27,12 +24,13 @@ for publish.  This has created a whole host of new problems, including the rise
 of predatory journals that are willing to publish almost anything by anyone who
 can pay.
 
-The ultimate effect of pay to play is that quality control has broken down.  If
-a dishonest researcher gets rejected from a reputable journal, they can take
-their paper to a pay to play journal and have it published there. With over
-10,000 academic journals, it's impossible for the lay public to track which
-journals are reputable and which are not.  As far as the public is concerned, a
-published paper is a valid paper.
+The ultimate effect of pay to play is that the traditional peer review and
+refereeing process has broken down.  If a dishonest researcher gets rejected
+from a reputable journal, they can take their paper to a pay to play journal
+and have it published there. With over 10,000 academic journals, it's
+impossible for the lay public to track which journals are reputable and which
+are not.  As far as the public is concerned, a published paper is a valid
+paper.
 
 This is a proposal for a software platform that may help the academic community
 solve these problems, and more.
@@ -104,14 +102,14 @@ deep as it needs to.  We're initializing the field hierarchy using Wikipedia's
 outlines of academic disciplines, but the intention is for the 1.0 version to
 include the ability for scholars to propose new fields or edits to existing
 fields, along with a proposed place in the hierarchy, and for their peers to
-confirm the proposals. 
+confirm the proposals.
 
 ![A screenshot showing field tags.](/assets/images/2022-08-03/fields.png)
 
 When reputation is gained in a child field, it is also gained in all of that
 field's parents.  So a paper tagged "astrophysics" also gives reputation in
 "physics" and "space-science".  Reputation is primarily gained through
-publishing and recieving positive feedback from your peers during post
+publishing and receiving positive feedback from your peers during post
 publish-refereeing - more on that later.
 
 When you hit submit, the draft goes into the review queue.  Here other scholars who
@@ -186,7 +184,7 @@ one is trustworthy.  The responses help add context and clarity.
 All papers submitted to Peer Review are published under the [Creative Commons
 Attribution](https://creativecommons.org/licenses/license), meaning the work
 can be freely distributed, remixed, and reused as long as the authors of the
-original work are attributed. 
+original work are attributed.
 
 It's important to emphasize: Peer Review is intended to be the final publish
 step.  It is not a pre-print server.  It is an attempt to replace the journal
@@ -210,9 +208,9 @@ stack developer at Ceros helping to build the Ceros Studio.
 
 When I'm not writing code, I'm very involved in local policy. I've worked
 closely with representatives of Bloomington, Indiana's municipal government on
-climate, transporation, and housing policy. I've served on government task
+climate, transportation, and housing policy. I've served on government task
 forces and on the boards of local non-profits, including a three year term as
-president of the board of our local 501(c)3 affordable housing cooperative. 
+president of the board of our local 501(c)3 affordable housing cooperative.
 
 I've been dreaming about Peer Review for years.  In my role as a policy
 advocate, I needed access to the research literature, but struggled to get it.
@@ -232,10 +230,10 @@ a small handful of volunteers who've offered part time help.
 I have the alpha version of Peer Review up on a staging server.  I'm looking
 for scientists, researchers, scholars, and academics from all disciplines who
 are interested in [exploring the alpha and giving me feedback on the concept](https://docs.google.com/forms/d/e/1FAIpQLSeMZ69DD2UiEiZjIiJQpaqU_UiYG-YXVhsGOiWbHNofIRDMQw/viewform?usp=sf_link) and
-where to go next. 
+where to go next.
 
 Could this work the way I think it might?  Are there things I'm not thinking
-of?  Problems I haven't forseen?  Aspects of the academic publishing system I
+of?  Problems I haven't foreseen?  Aspects of the academic publishing system I
 am unaware of and that Peer Review doesn't account for?  Broadly speaking, am I
 going in the right direction?
 
@@ -257,7 +255,7 @@ GitHub](https://github.com/users/danielBingham/projects/6).  If you're
 unfamiliar with the process of software development, please keep in mind that
 the roadmap is a *very* rough estimate and that it is constantly in flux.
 
-I'm also looking for feedback on that roadmap, are there features that aren't
+I'm also looking for feedback on that roadmap, are there features which aren't
 currently included that should be considered for the closed beta?  For the open
 beta?
 
@@ -275,7 +273,7 @@ donations to be able to commit to working on it full time, indefinitely.
 
 I need to raise $8000 / month to make that commitment: $5500 of monthly living
 expenses, $1500 to cover health care, and $1000 to cover the initial cloud
-infrastructure costs for site hosting. 
+infrastructure costs for site hosting.
 
 You can support me on [GitHub
 Sponsors](https://github.com/sponsors/danielBingham).  You'll need to make a
