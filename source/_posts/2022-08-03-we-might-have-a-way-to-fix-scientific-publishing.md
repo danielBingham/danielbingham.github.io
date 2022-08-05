@@ -195,7 +195,7 @@ to follow.  A down voted paper should be treated with skepticism. An up voted
 one is trustworthy.  The responses help add context and clarity.
 
 All papers submitted to Peer Review are published under the [Creative Commons
-Attribution](https://creativecommons.org/licenses/license), meaning the work
+Attribution License](https://creativecommons.org/licenses/license), meaning the work
 can be freely distributed, remixed, and reused as long as the authors of the
 original work are attributed.
 
