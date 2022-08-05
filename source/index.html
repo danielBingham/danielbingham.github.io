@@ -1,0 +1,29 @@
+---
+layout: default
+pagination:
+    enabled: true
+---
+
+{% for post in paginator.posts %}
+
+<article class="post">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="when">posted on {{ post.date | date_to_string: "ordinal", "US" }}</div>
+    <section class="post-body">
+        {{ post.content | markdownify }}
+    </section>
+</article>
+
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<section id="page-links">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+  {% endif %}
+  <span class="page-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+  {% endif %}
+</section>
+{% endif %}

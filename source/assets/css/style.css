@@ -1,0 +1,303 @@
+/******************************************************************************
+ *      Non-Responsive: Font, Color, Borders, and Background
+ *
+ * This section defines the non-responsive elements of the style - the ones that
+ * stay constant through all screem media.  Responsive elements are defined in
+ * the responsive section below (search for "Responsive Design").
+ *
+ ******************************************************************************/
+
+/******************************************************************************
+ *      Base setup
+ *****************************************************************************/
+
+body { font-family: Georgia,Times,serif;  color: #333; }
+a:link, a:active, a:visited { color: #06799F; text-decoration: none; }
+a:hover { color: #06799F; text-decoration: underline; }
+
+h1 { font-size: 2em; line-height: 1.46em; text-align: center; font-weight: 300; }
+h2 { font-size: 1.5em; line-height: 1.46em; font-weight: 300; }
+h3 { font-size: 1.2em;  line-height: 1.46em; font-weight: 300; text-align: center; }
+
+h1 a:link, h2 a:link, h3 a:link, 
+h4 a:link, h5 a:link, h6 a:link { color: #333; }
+h1 a:hover, h2 a:hover, h3 a:hover, 
+h4 a:hover, h5 a:hover, h6 a:hover { color: #666; text-decoration: none; }
+h1 a:visited, h2 a:visited, h3 a:visited, 
+h4 a:visited, h5 a:visited, h6 a:visited { color: #333; }
+h1 a:active, h2 a:active, h3 a:active, 
+h4 a:active, h5 a:active, h6 a:active { color: #333; }
+
+/******************************************************************************
+ *              Header
+ *
+ * The site's header containing my profile image, bio, and the
+ * navigation links.
+ *
+ ******************************************************************************/
+body > header nav a.icon:link { color: #888; text-decoration: none; }
+body > header nav a.icon:visited { color: #888; text-decoration: none; }
+body > header nav a.icon:hover { color: #CCC; text-decoration: none; }
+body > header nav a.icon:active { color: #CCC; text-decoration: none; }
+body > header nav a.icon:visited:hover { color: #CCC; text-decoration: none; }
+
+#get-involved .description { text-align: center; }
+#get-involved .ways-to-get-involved {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#get-involved .ways-to-get-involved .involve-method { padding: 20px; }
+#get-involved #github { grid-column: 1/2; }
+#get-involved #sponsor { grid-column: 2/3; }
+#get-involved #sponsor .sponsors-badge { padding: 20px }
+#get-involved #signup { grid-column: 3/4; }
+
+
+article {  color: #333; }
+
+/* ---------------- Articles --------------- */
+.when { color: #666666; font-style: italic; }
+blockquote {
+  width: 85%;
+  margin: 50px auto;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #67afc6;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
+iframe {
+    display: block;
+    margin: 50px auto;
+}
+
+code, pre { 
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;  
+    background-color: #f7f7f7 !important; 
+}
+
+/* ---------------- Header ----------------------- */
+body > header { 
+    display: grid; 
+    grid-template-columns: auto auto;
+    margin: 0 0 50px 0; 
+    padding: 10px 20px; 
+    border-bottom: thin solid #ddd; 
+    background-color: white; 
+}
+
+body > header #site-title { grid-column: 1 /2; font-size: 24px; font-weight: bold; text-align: left; }
+body > header #site-title img { width: 30px; height: 30px; margin-bottom: -6px; }
+
+body > header #navigation { grid-column: 2/3; text-align: right; font-size: 18px; padding: 3px 0; }
+
+body > header a:link, header a:active, header a:visited { color: black; }
+body > header a:hover { color: #666; }
+
+/******************************************************************************
+ *      Responsive Design -- Sizes and Dimensions
+ ******************************************************************************/
+
+@media screen and  (max-width: 1024px)  {
+    body { min-width: 700px; }
+
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        clear: both;
+        width: 100%;  
+        min-width: 700px;
+        min-height: 540px; 
+
+        font-size: 18px; 
+        line-height: 1.6em;
+    }
+
+    article { width: 670px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 670px;  margin: 10px auto; }
+
+    /* ------------------ CV --------------------- */
+    #cv article { margin: 0 auto; }
+    #cv img { float: left; width: 150px; margin-right: 20px; }
+    #cv section.contact { height: 125px; padding: 25px 0; }
+    #cv section.contact .icon { padding-right: 1em; }
+    #cv section.work-experience { clear: both; margin: 20px auto;}
+    #cv h2 .icon { padding-right: 1em; }
+    #cv .job { padding: 0.25em 0; }
+    #cv .volunteer { padding: 0.25em 0; }
+
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+    figure { text-align: center; margin: 0; width: 670px; }
+    figure img { width: 670px;  }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
+    body { min-width: 1024px; }
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        margin-left: 224px; /* Keep it out from under the fixed position header. */
+
+        width: 800px;  
+        min-height: 540px; 
+
+        font-size: 18px; 
+        line-height: 1.6em;
+    }
+
+    body > footer { 
+        text-align: center; 
+        margin: 10px; 
+        padding-top: 100px; 
+        padding-bottom: 20px;
+
+        font-size; 12px;
+        line-height: 1.2em;
+    }
+
+    article { width: 670px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 670px;  margin: 10px auto; }
+
+    /* ------------------ CV --------------------- */
+    #cv article { margin: 0 auto; }
+    #cv img { float: left; width: 150px; margin-right: 20px; }
+    #cv section.contact { height: 125px; padding: 25px 0; }
+    #cv section.contact .icon { padding-right: 1em; }
+    #cv section.work-experience { clear: both; margin: 20px auto;}
+    #cv h2 .icon { padding-right: 1em; }
+    #cv .job { padding: 0.25em 0; }
+    #cv .volunteer { padding: 0.25em 0; }
+
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+    figure { text-align: center; margin: 0; margin-left: -50px; width: 770px; }
+    figure img { width: 770px;  }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1599px)  {
+    body { min-width: 1280px; } 
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        margin-left: 280px; /* Keep it out from under the fixed position header. */
+
+        width: 1000px;  
+        min-height: 540px; 
+
+        font-size: 18px; 
+        line-height: 1.6em;
+    }
+
+    body > footer { 
+        text-align: center; 
+        margin: 10px; 
+        padding-top: 100px; 
+        padding-bottom: 20px;
+
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+
+    article { width: 770px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 770px;  margin: 10px auto; }
+
+    /* ------------------ CV --------------------- */
+    #cv article { margin: 0 auto; }
+    #cv img { float: left; width: 150px; margin-right: 20px; }
+    #cv section.contact { height: 125px; padding: 25px 0; }
+    #cv section.contact .icon { padding-right: 1em; }
+    #cv section.work-experience { clear: both; margin: 20px auto;}
+    #cv h2 .icon { padding-right: 1em; }
+    #cv .job { padding: 0.25em 0; }
+    #cv .volunteer { padding: 0.25em 0; }
+
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+    figure { text-align: center; margin: 0; margin-left: -50px; width: 870px; }
+    figure img { width: 870px;  }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+
+}
+
+
+@media screen and (min-width: 1600px) {
+    body { min-width: 1600px; }
+
+    /* ---------------- Primary Content Container ----------------------- */
+    body > main { 
+        margin: 0 auto;
+
+        width: 1100px;  
+        min-height: 540px; 
+
+        font-size: 18px; 
+        line-height: 1.6em;
+    }
+
+    body > footer { 
+        text-align: center; 
+        margin: 10px; 
+        padding-top: 100px; 
+        padding-bottom: 20px;
+
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+
+    article { width: 770px; margin: 20px auto; padding-bottom: 60px; }
+    article img { display: block; width: 770px; margin: 10px auto; }
+
+    /* ------------------ CV --------------------- */
+    #cv article { margin: 0 auto; }
+    #cv img { float: left; width: 150px; margin-right: 20px; }
+    #cv section.contact { height: 125px; padding: 25px 0; }
+    #cv section.contact .icon { padding-right: 1em; }
+    #cv section.work-experience { clear: both; margin: 20px auto;}
+    #cv h2 .icon { padding-right: 1em; }
+    #cv .job { padding: 0.25em 0; }
+    #cv .volunteer { padding: 0.25em 0; }
+
+    /* ---------------- Articles --------------- */
+    .subtitle { text-align: center; }
+    .when { text-align: center; font-size: 14px; margin-top: -10px; }
+    .read-more-wrapper { margin-bottom: 4em; text-align: center; }
+    .footnote { font-size: 14px; line-height: 1.46em; }
+    code, pre { padding: 0.5em; font-size: 14px; }
+    .hljs { padding: 16px !important; }
+    figure { text-align: center; margin: 0; margin-left: -50px; width: 870px; }
+    figure img { width: 870px;  }
+
+    #page-links { text-align: center; }
+    .page-info { display: inline-block; margin: 0 2em; }
+
+}

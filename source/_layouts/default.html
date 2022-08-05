@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    {% feed_meta %}
+    {% seo %}
+</head>
+<body>
+    <header>
+        <div id="site-title"><a href="/"><img src="/assets/images/icon.svg" />Peer Review</a></div>
+        <div id="navigation">
+        </div>
+    </header>
+    <main id="content" role="main">
+        <div id="get-involved">
+            <div class="description">
+                Peer Review is an open source, diamond open acccess (free to
+                access, free to publish) scientific and academic publishing
+                platform. We hope to become a non-profit, funded by the
+                community that uses it, and governed collaboratively by the
+                scholars who publish through the site and the workers that
+                build it. We're at an early stage (closed alpha), but there are
+                a number of ways to get involved and help out!
+            </div>
+            <div class="ways-to-get-involved">
+                <div id="github" class="involve-method">
+                    <p>Follow our progress on GitHub.</p>
+                    <a href="https://github.com/danielbingham/peerreview"><img src="/assets/images/GitHub-Mark-64px.png" /></a>
+                </div>
+                <div id="sponsor" class="involve-method">
+                    <p>Donate through GitHub Sponsors.</p>
+                    <div class="sponsors-badge"><a href="https://github.com/sponsors/danielBingham"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/danielbingham?style=for-the-badge"></a></div>
+                </div>
+                <div id="signup" class="involve-method">
+                    <p>Sign up to give feedback on the alpha or join the closed beta.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMZ69DD2UiEiZjIiJQpaqU_UiYG-YXVhsGOiWbHNofIRDMQw/viewform?usp=sf_link">Sign Up!</a>
+                </div>
+            </div>
+        </div>
+        {{ content }}
+    </main>
+</body>
+</html>
