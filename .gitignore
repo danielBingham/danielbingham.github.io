@@ -1,0 +1,10 @@
+*.swp
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+infrastructure/*.tfvars
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+infrastructure/.terraform
