@@ -89,10 +89,10 @@ public.
 
 ## How It Works - The Overview
 
-Here's how the platform works in detail. When you have a draft of a paper you're
-ready to get feedback on, you submit it to the platform.  You give it a title,
-add your co-authors, and tag it with up to five fields or disciplines (eg.
-"biology", "biochemistry", "economics", etc).
+Here's how the platform works in detail.  When you have a draft of a paper
+you're ready to get feedback on, you submit it to the platform.  You give it a
+title, add your co-authors, and tag it with up to five fields or disciplines
+(eg.  "biology", "biochemistry", "economics", etc).
 
 ![A screenshot of a submission screen.](/assets/images/2022-08-03/submit-a-paper.png)
 
@@ -128,8 +128,8 @@ Reviewers can click anywhere on the document to leave comments.
 
 ![A screenshot of review comments.](/assets/images/2022-08-03/review-comment.png)
 
-When they are ready, submit their review with a summary and a recommendation.
-The possible recommendations are:
+When they are ready, reviewers submit their review with a summary and a
+recommendation.  The possible recommendations are:
 
 - "Recommend Approval" meaning that this draft is ready to publish.
 - "Recommend Changes" meaning that they think it'll be ready to publish after
@@ -148,12 +148,6 @@ helpful, or "rejected" indicating that they were not helpful.  Reviews that are
 (and their parents).  Reviews that are "rejected" grant no reputation, but
 don't remove it either.
 
-This puts the pre-publish review process entirely in the hands of the authors.
-It gives reviewers an incentive to give solid, constructive review feedback -
-and rewards good reviewers for their efforts with recognition of their
-contributions.  It treats review work as a valuable contribution to an academic
-field alongside publishing.
-
 As the review process goes along, authors may upload additional versions of
 their paper and request new rounds of review feedback for each version
 uploaded.  Reviewers may offer as many reviews to each version as needed, but
@@ -162,8 +156,11 @@ only gain reputation for a single accepted review on each version.
 When the authors are ready, they hit "Publish" and their paper is published and
 live to the world.
 
-The pre-publish review process is entirely in the hands of the authors, with
-the sole purpose of helping authors to prepare their work for publishing.
+This puts the pre-publish review process entirely in the hands of the authors.
+It gives reviewers an incentive to give solid, constructive review feedback -
+and rewards good reviewers for their efforts with recognition of their
+contributions.  It treats review work as a valuable contribution to an academic
+field alongside publishing.
 
 Refereeing begins once the work is published.
 
@@ -176,8 +173,8 @@ paper's score and the author's reputation in the tagged fields.
 
 Up votes should be given based on an objective assessment of the paper's
 quality. Is this good science?  A well constructed argument?  Much of the same
-criteria used to determine whether a paper should be published in a well
-refereed journal currently, should be used to determine whether a paper should
+criteria currently used to determine whether a paper should be published in a well
+refereed journal, should be used to determine whether a paper should
 be upvoted, downvoted, or simply left with no score. Instead of that judgment
 being passed by a handful of reviewers selected by a journal's editor, it will
 be collected from the entire community of the fields the paper was submitted
